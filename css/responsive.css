@@ -1,0 +1,488 @@
+@media screen and (max-width: 768px) {
+	.footer_bottom {
+		height: auto;
+	}
+	.footer_bottom p {
+		padding: 0 25px;
+		text-align: left;
+	}
+	.footer_bottom_br {
+		display: block;
+	}
+	.side_img_image_wrapper {
+		height: 180px;
+		width: 100%;
+		display: block;
+	}
+	.side_img_text {
+		display: block;
+		width: 100%;
+		height: 180px;
+	}
+	.side_img_text .text_img {
+		padding: 10px 0 20px;
+	}
+	.pd_div {
+		padding: 15px;
+	}
+	.bg_swiper_section .side_img_text p {
+		height: 8.5em;
+		-webkit-line-clamp: 5;
+	}
+	img.text {
+		height: 15px;
+	}
+	img.text_hotel {
+		height: 45px;
+	}
+
+	h1 {font-size: 45px; line-height: 1.5;}
+	h2 {font-size: 25px; line-height: 1.5;}
+	h3 {font-size: 25px; line-height: 1.5;}
+	h4 {font-size: 15px; line-height: 1.6;}
+	h5 {font-size: 14px; line-height: 1.6;}
+	h6 {font-size: 12px;  line-height: 1.6;}
+	p {font-size:12px; line-height:1.6;}
+
+	.section {
+		padding: 50px 0;
+	}
+	.top_swiper .swiper-slide {
+		height: 300px;
+	}
+	.top_swiper_next,
+	.top_swiper_prev {
+		width: 17px;
+		height: 35px;
+		margin-top: -17px;
+		background-size: 17px 35px;
+	}
+	.top_swiper_next {
+		right: 15px;
+	}
+	.top_swiper_prev {
+		left: 15px;
+	}
+
+	.picture_top {
+		height: 300px;
+	}
+
+	.bg_swiper_section {
+		padding: 35px 0;
+		background-size: 210%;
+	}
+
+	.main_text_box h2 {
+		padding: 10px 0 15px;
+	}
+
+	.full_img_wrapper .more_img {
+		width: 51px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -6px;
+		margin-left: -25px;
+		opacity: 0;
+		-webkit-transition: all 1s ease 0.3s;
+		transition: all 1s ease 0.3s;
+	}
+
+
+	.pic_box {
+		padding-top: 40px;
+	}
+
+	.about_section .division_line {
+		padding: 13px 0;
+	}
+
+	.about_section .about_desc p {
+		font-size: 11px;
+		line-height: 2;
+	}
+	.about_section .about_desc {
+		padding: 12px 15px;
+	}
+
+
+	.bg_swiper_prev {
+		left: -30px;
+	}
+	.bg_swiper_next {
+		right: -30px;
+	}
+	.bg_swiper_next,
+	.bg_swiper_prev {
+		width: 17px;
+		height: 35px;
+		margin-top: -17px;
+		-moz-background-size: 17px 35px;
+		-webkit-background-size: 17px 35px;
+		background-size: 17px 35px;
+		
+	}
+	
+	.index_main_text {
+		height: 20px;
+	}
+
+	/* 소개 페이지 */
+	.position_custom_slide {
+		background-position: right !important;
+	}
+	.intro_top p {
+		margin-top: 20px;
+	}
+	.intro_line_bg {
+		height: 100px;
+	}
+	.intro_serv {
+		padding: 50px 0;
+	}
+	.intro_serv .text_hotel {
+		margin-bottom: 20px;
+	}
+	.intro_serv h5 {
+		padding:  15px 0;
+	}
+
+	.top_title h6 {
+		margin-top: 30px;
+		padding-bottom: 0px;
+	}
+	.specification_bt {
+		padding-top: 20px;
+	}
+	.spec1_detail {
+		margin-bottom: 20px;
+	}
+	.spec2_detail h6 {
+		padding: 15px 0 5px;
+	}
+	.spec2_detail h6:last-child {
+		padding: 15px 0 15px;
+	}
+	.spec3_detail {
+		margin-bottom: 20px;
+	}
+
+	.location_section .contain {
+		padding-top: 20px;
+	}
+
+	.location_section .about_desc:last-child {
+		padding-bottom: 10px;
+	}
+
+	/* gallery 페이지 */
+	.gallery_section {
+		padding: 0px 0 80px;
+	}
+
+	/* facilities 페이지 */
+	.sub_top_section .division_line {
+		padding: 20px 0;
+		font-size: 18px;
+		font-weight: 100;
+	}
+	.sub_top_section h6 {
+		margin-top: 35px;
+	}
+	.facil_info_section .text {
+		margin-bottom: 20px;
+	}
+	.white_box_contain {
+		margin-top: 20px;
+		padding: 30px 15px;
+		border: 1px solid #ebebeb;
+		background: #fff;
+	}
+	.facil_info_section .white_box_contain {
+		height: auto;
+	}
+
+	
+	/* restaurant 페이지 */
+	.rest_info_section .white_box_contain {
+		height: auto;
+	}
+	.rest_info_section .text {
+		margin-bottom: 20px;
+	}
+
+	/* room 페이지 */
+	.room_info_section .text {
+		margin-bottom: 20px;
+	}
+	.rooms_swiper_wrapper {
+		margin: 80px 0 20px;
+	}
+
+	.reservation img {
+		height: 30px;
+	}
+	.reservation span {
+		display: inline-block;
+		font-size: 13px;
+		color: #dfa867;
+		vertical-align: middle;
+	}
+
+	.rooms_swiper .swiper-slide > div {
+		height: 250px;
+	}
+	.other_room_div {
+		padding: 40px 0 25px;
+	}
+	.other_room_div img {
+		width: 40px;
+	}
+
+	/* 로그인 페이지 */
+	.login_area {
+		padding: 30px 20px;
+	}
+	.login_input_area {
+		float: none;
+	}
+	.login_form_ipt {
+		width: 165px;
+		height: 30px;
+		font-size: 12px;
+	}
+	.id_input_li {
+		margin-bottom: 12px;
+	}
+	.login_btn {
+		display: block;
+		margin: 30px auto 0;
+		width: 50%;
+		height: 40px;
+		float: none;
+		background: #363636;
+		border: none;
+	}
+	.login_btn img {
+		width: 45px;
+	}
+
+	/* 회원가입 페이지 */
+	.email_input_li {
+		margin-bottom: 6px;
+	}
+	.join_btn {
+		margin-bottom: 30px;
+	}
+	.sns_icon_box button {
+		margin: 0 10px;
+		border: none;
+		background: none;
+	}
+
+	/* myinfo 페이지 */
+	.ok_btn_area {
+		margin-top: 25px;
+	}
+	.ok_btn_area img {
+		width: 32px;
+	}
+	.id_input_li input.vertical_middle {
+		font-size: 12px;
+	}
+
+	/* qna 페이지 */
+	.board_table table {
+		margin : 50px auto 0;
+		width: 100%;
+	}
+	.board_table table th, .board_table table td {
+		/* height: 65px; */
+		padding: 8px 5px;
+		font-size: 11px;
+		font-weight: 400;
+		vertical-align: middle !important;
+		border-top: 0px;
+	}
+
+	.board_table table .no {
+		text-align: center;
+		width: 42px;
+	}
+	.board_table table tbody tr td {
+		padding: 15px 5px;
+		border-bottom: 1px solid #f1f1f1;
+	}
+	.board_table table th.title {
+		text-align: center;
+	}
+	.board_table table .title {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.board_table table td.title {
+		padding: 15px 5px;
+	}
+	.board_table table .status {
+		width: 60px;
+	}
+	.board_table table .writer {
+		text-align: center;
+		width: 60px;
+	}
+	.board_table table td.writer {
+		color: #000;
+		font-size: 9px;
+	}
+	.board_table table td a {
+		color: #000;
+	}
+	.board_table table .reg {
+		text-align: center;
+		width: 70px;
+		font-size: 9px;
+	}
+	.search_box {
+		margin-top: 30px;
+	}
+	.search_box input[type=text] {
+		width: 150px;
+		height: 25px;
+		font-size: 12px;
+	}
+	.search_box button {
+		left: 50%;
+		margin-left: -12px;
+		width: 25px;
+		height: 25px;
+		background-size: 17px; 
+	}
+
+	/* 게시판 뷰 페이지 */
+	.view_table .detail {
+		padding: 15px;
+	}
+	.view_table .detail div {
+		min-height: 150px;
+		font-size: 12px;
+	} 
+	.board_link_btn {
+		margin-top: 35px;
+	}
+	.board_link_btn img {
+		height: 10px;
+	}
+	.answer_div {
+		padding: 15px 0 0;
+	}
+
+	/* 게시판 글쓰기 페이지 */
+	.write_table table thead th {
+		/* display: block;
+		width: 100%; */
+	}
+	.write_table table .writer {
+		text-align: center;
+		width: 60px;
+	}
+	.write_table table .reg {
+		text-align: center;
+		width: 70px;
+		font-size: 9px;
+	}
+	.write_table table .detail {
+		padding: 15px;
+	}
+	.write_table input {
+		padding: 0px 5px;
+		height: 30px;
+		font-size: 11px;
+	}
+	.write_table table .detail textarea {
+		min-height: 150px;
+	}
+
+	/* contact 페이지 */
+	.contact_section .contact_ipt_area {
+		padding: 30px 20px;
+	}
+	.contact_ipt_area .row {
+		margin-bottom: 15px;
+	}
+	.contact_ipt_area textarea {
+		margin-top: 15px;
+		padding: 12px;
+		height: 140px;
+	}
+	.contact_ipt_bt {
+		margin-top: 20px;
+	}
+	.contact_ipt_bt .agree_chk h6 {
+		margin-left: 2px;
+	}
+	.contact_ipt_bt button img {
+		height: 10px;
+	}
+
+
+	/* 비밀번호 체크 페이지 */
+	.pw_chk_area {
+		margin-top: 30px;
+		padding: 25px 0 0;
+		text-align: center;
+		overflow: hidden;
+	}
+	.pw_chk_area label {
+		margin-bottom: 25px;
+	}
+}
+@media screen and (max-width: 550px) {
+	.gallery_section .height1 .img_div_wrapper {
+		height: 150px;
+	}
+	.gallery_section .height2 .img_div_wrapper {
+		height: 300px;
+	}
+	.gallery_section .img_div_wrapper img {
+		margin-top: -20px;
+		width: 40px;
+	}
+
+}
+@media screen and (max-width: 500px) {
+	.bg_swiper_section {
+		background-size: 300%;
+	}
+}
+@media screen and (max-width: 500px) {
+	.bg_swiper_section {
+		background-size: 350%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+/*태블릿*/
+@media screen and  (min-width: 768px) {
+	
+}
+
+/*노트북*/
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+/*웹*/
+@media screen and (min-width: 1600px) {
+	.bg_swiper_section {
+		background-size: 100%;
+	}
+}
